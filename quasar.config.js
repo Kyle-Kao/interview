@@ -60,7 +60,7 @@ module.exports = configure(function (/* ctx */) {
 
       // rebuildCache: true, // rebuilds Vite/linter/etc cache on startup
 
-      // publicPath: '/',
+      publicPath: '/kyle-kao.github.io/',
       // analyze: true,
       env: {
         API: 'https://dahua.metcfire.com.tw/',
