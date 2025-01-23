@@ -60,7 +60,7 @@ module.exports = configure(function (/* ctx */) {
 
       // rebuildCache: true, // rebuilds Vite/linter/etc cache on startup
 
-      publicPath: process.env.NODE_ENV === 'production' ? '/spa/' : '/',
+      publicPath: '/spa/',
       // analyze: true,
       env: {
         API: 'https://dahua.metcfire.com.tw/',
